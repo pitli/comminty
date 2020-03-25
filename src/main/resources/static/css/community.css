@@ -1,0 +1,195 @@
+body {
+    background-color: #efefef;
+}
+
+.main {
+    background-color: white;
+    margin: 30px;
+}
+
+.btn-publish {
+    float: right;
+    margin-bottom: 15px;
+}
+
+.publish-tag-tab {
+    display: none;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.publish-tag-tab .label-info {
+    white-space: normal;
+    margin: 5px 5px;
+    display: inline-block;
+}
+
+.media-object {
+    width: 38px;
+    height: 38px;
+}
+
+.media-body {
+    padding-top: 10px;
+}
+
+.text-desc {
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
+
+.profile .section {
+    margin-top: 15px;
+}
+
+.question-title {
+    margin-top: 25px;
+}
+
+.question-tag {
+    margin-right: 5px;
+}
+
+.question-related {
+    line-height: 20px;
+    font-size: 12px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.question-qrcode {
+    width: 100%;
+}
+
+.community-menu {
+    color: #999;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.comment {
+    margin: 10px 0;
+}
+
+.btn-comment {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.comments {
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.sub-comments {
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sub-comments .btn {
+    margin: 10px 0;
+}
+
+.comment-sp {
+    margin-top: 0;
+}
+
+.menu {
+    color: #999;
+    margin-top: 5px;
+}
+
+.menu .icon {
+    margin-right: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.menu .comment-icon {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.menu .comment-icon:hover {
+    color: #499ef3;
+}
+
+.menu .active {
+    color: #499ef3;
+}
+
+.menu .icon:hover {
+    color: #499ef3;
+}
+
+.footer {
+    padding: 10px 30%;
+    color: #666;
+}
+
+.side {
+    margin: 5px 0;
+}
+
+.community-tag {
+    text-decoration-line: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    line-height: 16px;
+    padding: 2px 5px;
+    background-color: #99cfff;
+    font-size: 12px;
+    color: #fff !important;
+    border-radius: 4px;
+    margin: 4px;
+}
+.aw-side-bar{
+    padding-top: 20px;
+    border-left: 1px solid #e6e6e6;
+}
+
+/*头部tab切换*/
+.aw-nav-tabs {
+    position: relative;
+    z-index: 1;
+    min-height: 63px;
+    min-height: 32px \9;
+    margin: 0;
+    padding: 30px 20px 0;
+    border-color: #e6e6e6;
+}
+
+.aw-nav-tabs h2 {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.aw-nav-tabs.active > li {
+    float: right;
+}
+
+.aw-nav-tabs > li {
+    margin: 0 4px 0 0;
+    font-size: 14px;
+}
+
+.aw-nav-tabs > li > a {
+    color: #666;
+}
+
+.aw-nav-tabs > li > a {
+    line-height: 30px;
+    padding: 0 13px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}

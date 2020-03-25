@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>社区</title>
+    <head th:insert="~{import :: head}"></head>
+    <head th:insert="~{import :: markdown}"></head>
+</head>
+<body>
+<div th:insert="~{navigation :: nav}"></div>
+<div class="container-fluid">
+    <div class="jumbotron">
+        <h1>出错了！！！</h1>
+        <p th:text="${message}">12321</p>
+        <p><a class="btn btn-primary btn-lg" href="/" role="button">回到主页</a></p>
+    </div>
+</div>
+<div th:insert="~{footer :: foot}"></div>
+</body>
+</html>

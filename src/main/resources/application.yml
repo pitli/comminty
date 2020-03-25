@@ -1,0 +1,22 @@
+server:
+  port: 8887
+  servlet:
+    session:
+      timeout: 15552000
+#日志配置
+logging:
+  file:
+    name: logs/community.log
+    max-history: 15
+    max-size: 100MB
+  level:
+    root: info
+    com.life.community: debug
+spring:
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+  #可根据test.yml自行配置
+  profiles:
+    active: dev
