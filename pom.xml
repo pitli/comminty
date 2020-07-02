@@ -19,7 +19,7 @@
         <okhttp3.version>3.14.1</okhttp3.version>
         <fastjson.version>1.2.57</fastjson.version>
         <!--本地环境-->
-        <mysql.version>5.1.8</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <!--发布环境-->
         <!--<mysql.version>8.0.16</mysql.version>-->
         <mybatis.version>2.0.1</mybatis.version>
